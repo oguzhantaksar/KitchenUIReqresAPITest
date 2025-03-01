@@ -1,0 +1,41 @@
+ # Ignore build output directories
+bin/
+obj/
+
+# Rider specific
+.idea/
+
+# Visual Studio specific
+.vs/
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+
+# NuGet packages
+*.nupkg
+packages/
+
+# Build results
+*.exe
+*.dll
+*.pdb
+*.cache
+*.ilk
+*.log
+
+# Test results (if generated)
+TestResults/
+
+# Screenshots (if these are dynamically generated and not meant for version control)
+UI/Images/current/
+
+# Temporary files
+*.tmp
+*.temp
+
+# OS generated files
+.DS_Store
+Thumbs.db
+
+testlog.txt
