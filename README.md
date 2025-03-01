@@ -17,6 +17,9 @@
 
 ## Running the tests
 
+    Run all tests with logs on the terminal:
+    dotnet test --logger "console;verbosity=detailed"
+
     Run all tests with logs on the terminal and logs saved to testlog.txt:
     dotnet test --logger "console;verbosity=detailed" | tee testlog.txt
 
